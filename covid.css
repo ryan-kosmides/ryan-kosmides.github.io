@@ -1,0 +1,224 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0
+}
+.wrap {
+  width: 100%
+}
+#element1 {
+  width: 100%
+}
+h1 {
+  color: #0003a0;
+  font-size: 28px;
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+}
+h2 {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+}
+p {
+  color: #666;
+  font: 1.2em/1.6em "Open Sans", sans-serif;
+  padding-bottom: 10px;
+}
+a {
+  color: #e67e22;
+  font-weight: bold;
+  text-decoration: none
+}
+hr {
+  border: 1px solid #d9d9d9
+}
+.blueBar {
+  background-color: #0003a0;
+  border-bottom: 2px solid #0003a0;
+  height: 70px;
+}
+.clear {
+  clear: both
+}
+/**.header {
+  height: 130px
+}**/
+.AllstateLogo {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 1%
+}
+.mainContent {
+  width: 50%;
+  margin: 0 auto
+}
+.headline {
+  color: #666;
+  margin: 12px 0 0;
+  padding: 20px 50px 20px 0;
+  position: relative;
+  width: 65%
+}
+.footer {
+    margin: 2% auto;
+    font: 1em/1em "Open Sans", sans-serif;
+    text-align: left;
+   /** width: 100%;**/
+    color: #666;
+    border-top: 1px #ccc solid;
+    padding: 20px 20% 0;
+}
+.footer p {
+  color: #666;
+  font: .8em/1em "Open Sans", sans-serif
+}
+.footer a, .footer a:visited {
+    color: #666;
+    font-weight: normal;
+    text-decoration: underline;}
+.covid ul {
+  color: #666;
+  font: 1.2em/1.6em "Open Sans", sans-serif;
+  padding-bottom: 10px;
+}
+.covid li {
+  padding-bottom: 10px;
+}
+.mainContent {
+  width: 60%;
+  margin: 0 auto;
+}
+.AllstateLogo {
+  width: 60%;
+}
+.appButtons {
+  margin: 20px auto 0 20px;
+  text-align: center;
+}
+.appButtons img {
+    width: 140px;
+    display: inherit;
+}
+  
+.btn, .btn:hover {
+  line-height: 1.4;
+  padding: 10px 20px;
+}
+.covidMessage h1 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+@media screen and (max-width: 747px){
+.mainContent {
+    width: 92%;
+    margin: 0 5%;
+}
+  .AllstateLogo {
+    width: 40%;
+    padding: 5%;
+    margin: 0 auto;
+  }
+  h1 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  .covidMessage h1 {font-size: 20px}
+  .footer {padding: 20px 5% 0;}
+}
+/** Homepage Banner **/
+.blueTop-homepage {
+  background-color: #0033a0;
+  padding: 2% 0 0 0;
+  height: 380px;
+  text-align: center;
+  color: #fff;
+}
+.blueTop-homepage p.headline {
+    color: #fff;
+    font-size: 28px;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: bold;
+    text-align: left;
+    padding: 0 0 15px;
+    width: 100%;
+}
+.blueTop-homepage p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+  padding-right: 40px;
+  padding-left: 0;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.blueTop-homepage p.video {
+  padding: 10px 20px;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+.blueTop-homepage h2 {
+  text-align: left;
+}
+.blueTop-homepage a, .blueTop-homepage a:visited, .blueTop-homepage a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 747px) {
+  .blueTop-homepage {
+    height: auto;
+    padding: 20px 20px 10px;
+  }
+  .blueTop-homepage img {
+    width: 100%;
+  }
+  .blueTop-homepage p {
+    text-align: center;
+    padding: 0;
+  }
+  .blueTop-homepage p.headline {
+   text-align: center;
+}
+}
+  
+.trVideo {
+    margin: 0 auto;
+    max-width: 480px;
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.embed-responsive-16by9 {
+    padding-bottom: 63.25%;
+}
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
